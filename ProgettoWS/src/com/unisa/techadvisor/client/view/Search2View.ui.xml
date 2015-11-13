@@ -1,0 +1,28 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+	
+	</ui:style>
+	<g:HTMLPanel>
+	<div class="panelContent">
+	
+	<h2>Is the application oriented to the web or mobile?</h2>
+		<div class="input-group u-form-group"> 
+			<g:HTMLPanel>
+			<g:Button ui:field="web">Web</g:Button>
+			<g:Button ui:field="mobile">Mobile</g:Button>
+			</g:HTMLPanel>
+		<p></p>
+				<p></p>
+				<div class="progress">
+					<div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="33" aria-valuemin="0" aria-valuemax="100" style="width: 33%"> 
+    						33%
+ 					 </div>
+ 					</div>
+ 					<div ui:field="load" style="display: none;"><i class="fa fa-spinner fa-pulse fa-4x"></i></div>
+		
+ 		</div>
+	</div>
+	</g:HTMLPanel>
+</ui:UiBinder> 

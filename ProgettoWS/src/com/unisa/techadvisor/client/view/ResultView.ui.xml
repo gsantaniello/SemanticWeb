@@ -1,0 +1,18 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+	.important {
+		font-weight: bold;
+	}
+	</ui:style>
+	<g:HTMLPanel>
+		<div class="panelContent">
+			<div class="progress">
+					<div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%"> 100%</div>
+ 			</div>
+ 			<div ui:field="prematureMsg" style="display: none;">Sorry, these are some alternative results!</div>
+ 			
+		</div>
+	</g:HTMLPanel>
+</ui:UiBinder> 

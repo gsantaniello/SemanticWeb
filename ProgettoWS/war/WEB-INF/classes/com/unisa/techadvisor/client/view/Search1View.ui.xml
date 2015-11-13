@@ -1,0 +1,33 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+	
+	</ui:style>
+	<g:HTMLPanel>
+		<div class="panelContent">
+		<h2>What do you want to develop?</h2>
+			<div class="input-group u-form-group">
+				<g:HTMLPanel>
+				<g:TextArea ui:field="topic"></g:TextArea> 
+				</g:HTMLPanel>
+				<g:HTMLPanel>
+					<g:Button ui:field="next">Next </g:Button>
+				</g:HTMLPanel>
+				<p></p>
+				<p></p>
+				<p></p>
+				<p></p>
+				<div class="progress">
+					<div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100" style="width: 2%"> 
+    						0%
+ 					 </div>
+ 					</div>
+			</div>
+			<div ui:field="no_match" style="display: none;border: 1px solid red">Sorry, no results found</div>
+			<div ui:field="load" style="display: none;"><i class="fa fa-spinner fa-pulse fa-4x"></i></div>
+		</div>
+
+
+	</g:HTMLPanel>
+</ui:UiBinder> 

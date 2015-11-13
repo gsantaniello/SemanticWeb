@@ -1,0 +1,178 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+	.important {
+		font-weight: bold;
+	}
+	</ui:style>
+	<g:HTMLPanel>
+		<div class="panelContent">
+			<div class="row"><h1>Mission</h1></div>
+			<h2>Do you want to create a software project, but not know where to begin? 
+			TechAdvisor suggests the best frameworks, IDEs and toolkits fit for your purpose.</h2>
+			<div class="row"><h1>Team</h1></div>
+			<div class="row">
+				<div class="col-md-4">
+					<div style="position:relative;">
+						<p>
+							<img class="img-circle" src="images/dani.png"></img>
+							<img class="nazionalita"
+								src="https://cdn2.iconfinder.com/data/icons/world-flag-icons/256/Flag_of_Italy.png"></img>
+						</p>
+					</div>
+					<p>
+						<h1 class="member" style="text-align:center;">
+							Attilio Daniele
+						</h1>
+						<p style="text-align:center;">
+							<a href="https://it.linkedin.com/pub/attilio-daniele/90/8b6/589">
+								<i class="fa fa-linkedin-square fa-2x"></i>
+							</a>
+							<a href="https://www.facebook.com/attilio.daniele">
+								<i class="fa fa-facebook-square fa-2x"></i>
+							</a>
+							<a href="https://plus.google.com/u/0/101335775365397847416/about">
+								<i class="fa fa-google-plus-square fa-2x"></i>
+							</a>
+						</p>
+					</p>
+				</div>
+				<div class="col-md-4">
+					<div style="position:relative;">
+						<p>
+							<img class="img-circle"
+								src="images/festa.png"></img>
+							<img class="nazionalita"
+								src="https://cdn2.iconfinder.com/data/icons/world-flag-icons/256/Flag_of_Italy.png"></img>
+						</p>
+					</div>
+					<p>
+						<h1 class="member" style="text-align:center;">
+							Giovanni Festa
+						</h1>
+						<p style="text-align:center;">
+							
+							<i class="fa fa-linkedin-square fa-2x"></i>
+							
+							<a href="https://www.facebook.com/giovanni.festa.754">
+								<i class="fa fa-facebook-square fa-2x"></i>
+							</a>
+							<a href="https://plus.google.com/u/0/101621440396453268138/about">
+								<i class="fa fa-google-plus-square fa-2x"></i>
+							</a>
+						</p>
+					</p>
+				</div>
+				<div class="col-md-4">
+					<div style="position:relative;">
+						<p>
+							<img class="img-circle"
+								src="images/mannara.png"></img>
+							<img class="nazionalita"
+								src="https://cdn2.iconfinder.com/data/icons/world-flag-icons/256/Flag_of_Italy.png"></img>
+						</p>
+					</div>
+					<p>
+						<h1 class="member" style="text-align:center;">
+							Marco Mannara
+						</h1>
+						<p style="text-align:center;">
+							<a href="https://it.linkedin.com/pub/marco-mannara/97/a82/97a">
+								<i class="fa fa-linkedin-square fa-2x"></i>
+							</a>
+							<a href="https://www.facebook.com/marco.mannara.9">
+								<i class="fa fa-facebook-square fa-2x"></i>
+							</a>
+							<a href="https://plus.google.com/u/0/117658284829538956986/about">
+								<i class="fa fa-google-plus-square fa-2x"></i>
+							</a>
+						</p>
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div style="position:relative;">
+						<p>
+							<img class="img-circle"
+								src="images/gpietra.png"></img>
+							<img class="nazionalita"
+								src="https://cdn2.iconfinder.com/data/icons/world-flag-icons/256/Flag_of_Italy.png"></img>
+						</p>
+					</div>
+					<p>
+						<h1 class="member" style="text-align:center;">
+							Giuseppe Pietravalle
+						</h1>
+						<p style="text-align:center;">
+							<a href="https://www.linkedin.com/pub/giuseppe-pietravalle/6b/7a/936">
+								<i class="fa fa-linkedin-square fa-2x"></i>
+							</a>
+							<a href="https://www.facebook.com/giuseppe.pietravalle">
+								<i class="fa fa-facebook-square fa-2x"></i>
+							</a>
+							<a href="https://plus.google.com/u/0/109481139485088490589/about">
+								<i class="fa fa-google-plus-square fa-2x"></i>
+							</a>
+						</p>
+					</p>
+				</div>
+				<div class="col-md-4">
+					<div style="position:relative;">
+						<p>
+							<img class="img-circle"
+								src="images/gsanta.png"></img>
+							<img class="nazionalita"
+								src="https://cdn2.iconfinder.com/data/icons/world-flag-icons/256/Flag_of_Italy.png"></img>
+						</p>
+					</div>
+					<p>
+						<h1 class="member" style="text-align:center;">
+							Giuseppe Santaniello
+						</h1>
+						<p style="text-align:center;">
+							<a href="https://it.linkedin.com/pub/giuseppe-santaniello/6b/278/988">
+								<i class="fa fa-linkedin-square fa-2x"></i>
+							</a>
+							<a href="https://www.facebook.com/giuseppe.santaniello">
+								<i class="fa fa-facebook-square fa-2x"></i>
+							</a>
+							<a href="https://plus.google.com/u/0/+GiuseppeSantaniello/about">
+								<i class="fa fa-google-plus-square fa-2x"></i>
+							</a>
+						</p>
+					</p>
+				</div>
+				<div class="col-md-4">
+					<div style="position:relative;">
+						<p>
+							<img class="img-circle"
+								src="images/ciro.png"></img>
+							<img class="nazionalita"
+								src="https://cdn2.iconfinder.com/data/icons/world-flag-icons/256/Flag_of_Italy.png"></img>
+						</p>
+					</div>
+					<p>
+						<h1 class="member" style="text-align:center;">
+							Ciro Veneruso
+						</h1>
+						<p style="text-align:center;">
+							<a href="https://it.linkedin.com/pub/ciro-veneruso/6b/77/390">
+								<i class="fa fa-linkedin-square fa-2x"></i>
+							</a>
+							<a href="https://www.facebook.com/cirux91">
+								<i class="fa fa-facebook-square fa-2x"></i>
+							</a>
+							<a href="https://plus.google.com/u/0/+CiroVeneruso/about">
+								<i class="fa fa-google-plus-square fa-2x"></i>
+							</a>
+						</p>
+					</p>
+				</div>
+			</div>
+
+
+		</div>
+	</g:HTMLPanel>
+</ui:UiBinder> 

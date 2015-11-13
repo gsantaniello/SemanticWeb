@@ -1,0 +1,29 @@
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix ta:    <http://www.thesaurus.ta.it/concepts#> .
+
+ta:mobile  a               skos:Concept ;
+        skos:altLabel      "applicazione mobile"@it , "mobile application"@en , "mobile app"@en ;
+        skos:narrower      ta:windowsphone , ta:ios , ta:android ;
+        skos:prefLabel     "mobile"@en ;
+        skos:topConceptOf  <http://www.thesaurus.ta.it/MobileThesaurus> .
+
+<http://www.thesaurus.ta.it/MobileThesaurus>
+        a                   skos:ConceptScheme ;
+        skos:hasTopConcept  ta:mobile .
+
+ta:android  a           skos:Concept ;
+        skos:broader    ta:mobile ;
+        skos:inScheme   <http://www.thesaurus.ta.it/MobileThesaurus> ;
+        skos:prefLabel  "android"@it , "android"@en .
+
+ta:ios  a               skos:Concept ;
+        skos:altLabel   "iphone os"@en ;
+        skos:broader    ta:mobile ;
+        skos:inScheme   <http://www.thesaurus.ta.it/MobileThesaurus> ;
+        skos:prefLabel  "ios"@it , "ios"@en .
+
+ta:windowsphone  a      skos:Concept ;
+        skos:altLabel   "wp"@en ;
+        skos:broader    ta:mobile ;
+        skos:inScheme   <http://www.thesaurus.ta.it/MobileThesaurus> ;
+        skos:prefLabel  "windows phone"@it , "windows phone"@en .

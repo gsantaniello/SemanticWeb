@@ -1,0 +1,93 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:gwt="urn:import:com.google.gwt.user.client.ui">
+		<gwt:HTMLPanel>
+		<!-- Add GWT widgets here. Enter < and hit Ctrl-Space to auto-complete 
+			widget names. The ui:field attribute binds an element to a field in the owner 
+			class. See the GWT docs on UI Binder for more details. -->
+		<div id="contentLoginView">
+		<div class="login-box">
+			<div class="lb-header">
+				<gwt:HTMLPanel>
+					<gwt:Anchor ui:field="loginlink">Login</gwt:Anchor>
+					<gwt:Anchor ui:field="signuplink">Sign Up</gwt:Anchor>
+				</gwt:HTMLPanel>
+			</div>
+			<div class="logo">
+				<img src="images/logo.jpg"></img>
+			</div>
+			<div ui:field="loginForm">
+				<form class="email-login">
+					<div class="u-form-group">
+						<gwt:HTMLPanel><input ui:field="email_login" type="text" placeholder="Email"
+							onBlur="if(this.placeholder=='')this.placeholder='Email'"
+							onFocus="if(this.placeholder=='Email')this.placeholder=''" />
+							</gwt:HTMLPanel>
+					</div>
+					<div class="u-form-group">
+					
+					
+						<gwt:HTMLPanel><input ui:field="password_login" type="password" placeholder="Password"
+							onBlur="if(this.placeholder=='')this.placeholder='Password'"
+							onFocus="if(this.placeholder=='Password')this.placeholder=''" />
+							</gwt:HTMLPanel>
+					</div>
+					<div class="u-form-group">
+						<gwt:HTMLPanel><gwt:Button ui:field="login">Login</gwt:Button></gwt:HTMLPanel>
+					</div>
+					<div class="loginError">
+						<span ui:field="msgError" style="display: none"> Email or password are wrong</span>
+						<span ui:field="msgEmpty" style="display: none"> Insert email and password</span>
+					</div>
+				</form>
+			</div>
+			<div ui:field="signupForm" style="display: none;">
+				<form class="email-signup" action="privateArea/WelcomePage.html">
+
+					<div class="u-form-group">
+						<gwt:HTMLPanel><input ui:field="name" type="text" placeholder="Name"
+							onBlur="if(this.placeholder=='')this.placeholder='Name'" onFocus="if(this.placeholder=='Name')this.placeholder=''" />
+						</gwt:HTMLPanel>
+					</div>
+
+					<div class="u-form-group" id="divEmail">
+						<gwt:HTMLPanel><input ui:field="email_sign" type="text" placeholder="Email"
+							onBlur="if(this.placeholder=='')this.placeholder='Email'"
+							onFocus="if(this.placeholder=='Email')this.placeholder=''" />
+							</gwt:HTMLPanel>
+					</div>
+					<div class="u-form-group">
+					<gwt:HTMLPanel>
+						<input ui:field="password_sign" type="password" placeholder="Password"
+							onBlur="if(this.placeholder=='')this.placeholder='Password'"
+							onFocus="if(this.placeholder=='Password')this.placeholder=''" />
+							</gwt:HTMLPanel>
+					</div>
+					<div class="u-form-group">
+					<gwt:HTMLPanel>
+						<input ui:field="confirm_pass" type="password" placeholder="Confirm Password"
+							onBlur="if(this.placeholder=='')this.placeholder='Confirm Password'"
+							onFocus="if(this.placeholder=='Confirm Password')this.placeholder=''" />
+							</gwt:HTMLPanel>
+					</div>
+
+					<div class="u-form-group">
+						<textarea ui:field="languages" placeholder="Your languages"
+							onBlur="if(this.placeholder=='')this.placeholder='Your languages'"
+							onFocus="if(this.placeholder=='Your languages')this.placeholder=''"/>
+						
+					</div>
+
+					<div class="u-form-group">
+					<gwt:HTMLPanel><gwt:Button ui:field="signup">Sign Up </gwt:Button></gwt:HTMLPanel>
+					</div>
+					<div class="loginError">
+						<span ui:field="msgEmptySignUp" style="display: none"> All fields are required except languages</span>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div ui:field="load" style="display: none;"><i class="fa fa-spinner fa-pulse fa-3x"></i></div>
+		</div>
+	</gwt:HTMLPanel>
+</ui:UiBinder> 

@@ -1,0 +1,43 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:ta="http://www.thesaurus.ta.it/concepts#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#" > 
+  <rdf:Description rdf:about="http://www.thesaurus.ta.it/concepts#mobile">
+    <skos:topConceptOf rdf:resource="http://www.thesaurus.ta.it/MobileThesaurus"/>
+    <skos:narrower rdf:resource="http://www.thesaurus.ta.it/concepts#windowsphone"/>
+    <skos:narrower rdf:resource="http://www.thesaurus.ta.it/concepts#ios"/>
+    <skos:narrower rdf:resource="http://www.thesaurus.ta.it/concepts#android"/>
+    <skos:altLabel xml:lang="it">applicazione mobile</skos:altLabel>
+    <skos:altLabel xml:lang="en">mobile application</skos:altLabel>
+    <skos:altLabel xml:lang="en">mobile app</skos:altLabel>
+    <skos:prefLabel xml:lang="en">mobile</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.thesaurus.ta.it/MobileThesaurus">
+    <skos:hasTopConcept rdf:resource="http://www.thesaurus.ta.it/concepts#mobile"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.thesaurus.ta.it/concepts#android">
+    <skos:broader rdf:resource="http://www.thesaurus.ta.it/concepts#mobile"/>
+    <skos:inScheme rdf:resource="http://www.thesaurus.ta.it/MobileThesaurus"/>
+    <skos:prefLabel xml:lang="it">android</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">android</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.thesaurus.ta.it/concepts#ios">
+    <skos:broader rdf:resource="http://www.thesaurus.ta.it/concepts#mobile"/>
+    <skos:inScheme rdf:resource="http://www.thesaurus.ta.it/MobileThesaurus"/>
+    <skos:prefLabel xml:lang="it">ios</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">ios</skos:prefLabel>
+    <skos:altLabel xml:lang="en">iphone os</skos:altLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.thesaurus.ta.it/concepts#windowsphone">
+    <skos:broader rdf:resource="http://www.thesaurus.ta.it/concepts#mobile"/>
+    <skos:inScheme rdf:resource="http://www.thesaurus.ta.it/MobileThesaurus"/>
+    <skos:prefLabel xml:lang="it">windows phone</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">windows phone</skos:prefLabel>
+    <skos:altLabel xml:lang="en">wp</skos:altLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+</rdf:RDF>

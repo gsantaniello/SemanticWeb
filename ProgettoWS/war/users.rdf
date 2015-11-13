@@ -1,0 +1,29 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
+  <rdf:Description rdf:about="http://www.techadvisor.it/sant@gmail.com">
+    <vcard:FN>giuseppe</vcard:FN>
+    <vcard:PASSWORD>asd</vcard:PASSWORD>
+    <vcard:EMAIL>sant@gmail.com</vcard:EMAIL>
+    <vcard:LANGUAGE>PHP</vcard:LANGUAGE>
+    <vcard:LANGUAGE>Java</vcard:LANGUAGE>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.techadvisor.it/mannara@gmail.com">
+    <vcard:FN>marco</vcard:FN>
+    <vcard:PASSWORD>asd</vcard:PASSWORD>
+    <vcard:EMAIL>mannara@gmail.com</vcard:EMAIL>
+    <vcard:LANGUAGE>PHP</vcard:LANGUAGE>
+    <vcard:LANGUAGE>Java</vcard:LANGUAGE>
+    <vcard:LANGUAGE rdf:resource="http://www.techadvisor.it/orciuoli@gmail.com"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.techadvisor.it/orciuoli@gmail.com">
+    <vcard:FN>francesco</vcard:FN>
+    <vcard:PASSWORD>asd</vcard:PASSWORD>
+    <vcard:EMAIL>orciuoli@gmail.com</vcard:EMAIL>
+    <vcard:LANGUAGE>PHP</vcard:LANGUAGE>
+    <vcard:LANGUAGE>Java</vcard:LANGUAGE>
+  </rdf:Description>
+</rdf:RDF>

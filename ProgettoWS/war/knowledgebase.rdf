@@ -1,0 +1,290 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:ta="http://www.techadvisor.it/"
+    xmlns:doap="http://usefulinc.com/ns/doap#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
+  <rdf:Description rdf:about="IDE">
+    <rdfs:label xml:lang="en">IDE</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="Bluefish">
+    <doap:logo rdf:resource="http://cdn1.download.html.it/wp-content/uploads/2013/02/Snap2648-150x130.jpg"/>
+    <doap:name>Bluefish</doap:name>
+    <doap:description>Bluefish aims to be a light and clean IDE for linux users. It offers project support, as well as the ability to access remote files on almost any server. It has very robust search and replace, code completion for HTML and XML, and a function reference browser for PHP, CSS, Python, and HTML.</doap:description>
+    <doap:programming-language>-</doap:programming-language>
+    <doap:sub_category rdf:resource="http://www.thesaurus.ta.it/concepts#website"/>
+    <doap:category rdf:resource="http://www.thesaurus.ta.it/concepts#web"/>
+    <doap:os>linux</doap:os>
+    <doap:homepage rdf:resource="http://bluefish.openoffice.nl/index.html"/>
+    <rdf:type rdf:resource="IDE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="JSyn">
+    <ta:usedFor rdf:resource="http://www.thesaurus.ta.it/concepts#music"/>
+    <doap:sub_category rdf:resource="http://www.thesaurus.ta.it/concepts#android"/>
+    <doap:name>JSyn</doap:name>
+    <doap:description>Real-time modular audio synthesis API for Java. JSyn has over 100 unit generators including band-limited oscillators, envelopes, filters, effects, etc. JSyn is open source on GitHub.</doap:description>
+    <doap:category rdf:resource="http://www.thesaurus.ta.it/concepts#mobile"/>
+    <rdf:type rdf:resource="Framework"/>
+    <doap:homepage rdf:resource="http://www.softsynth.com/jsyn/"/>
+    <doap:os>-</doap:os>
+    <doap:logo rdf:resource="http://www.softsynth.com/images/softsynth_logo.png"/>
+    <doap:programming-language>java</doap:programming-language>
+  </rdf:Description>
+  <rdf:Description rdf:about="CSSEdit">
+    <doap:logo rdf:resource="http://static.tonyarnold.com/cssedit_icon-1306152105.png"/>
+    <doap:name>CSSEdit</doap:name>
+    <doap:description>An IDE for CSS? That's right, and an amazingly slick one at that. With built in validation, "Milestones" (Code versioning), and a really neat selector builder, writing CSS is a snap with CSSEdit. And then there are tools that let you inspect other websites to see how it's done. This tool is great for both CSS newbies and veterans.</doap:description>
+    <doap:programming-language>-</doap:programming-language>
+    <doap:sub_category rdf:resource="http://www.thesaurus.ta.it/concepts#website"/>
+    <doap:category rdf:resource="http://www.thesaurus.ta.it/concepts#web"/>
+    <doap:os>mac</doap:os>
+    <doap:homepage rdf:resource="http://macrabbit.com/espresso/"/>
+    <rdf:type rdf:resource="IDE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="Netbeans">
+    <doap:logo rdf:resource="http://phpgranada.com/images/enlaces/netbeans.png"/>
+    <doap:name>Netbeans</doap:name>
+    <doap:description>This open-source IDE is a sweet deal: whether you're developing in PHP, Ruby on Rails, JavaScript, or something else, you'll find rich editing features, as well as support for FTP and MySQL. At least with PHP, it offers light on-the-go debugging, alerting you to errors as you type. Netbeans also has a nice code navigator, and offers code completion and integrated documentation for frameworks like jQuery and Mootools.</doap:description>
+    <doap:programming-language>-</doap:programming-language>
+    <doap:sub_category rdf:resource="http://www.thesaurus.ta.it/concepts#website"/>
+    <doap:category rdf:resource="http://www.thesaurus.ta.it/concepts#web"/>
+    <doap:os>windows/mac/linux</doap:os>
+    <doap:homepage rdf:resource="https://netbeans.org/"/>
+    <rdf:type rdf:resource="IDE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BroadLeaf">
+    <doap:name>BroadLeaf</doap:name>
+    <doap:logo rdf:resource="http://alliance.rice.edu/uploadedImages/Events/2013_IT_and_Web_Venture_Forum(1)/broadleaf.png"/>
+    <doap:category rdf:resource="http://www.thesaurus.ta.it/concepts#web"/>
+    <doap:homepage rdf:resource="http://www.broadleaknwommerce.org/"/>
+    <rdf:type rdf:resource="Framework"/>
+    <doap:programming-language>-</doap:programming-language>
+    <ta:usedFor rdf:resource="http://www.thesaurus.ta.it/concepts#e-commerce"/>
+    <doap:description>BroadLeaf Commerce is an open source eCommerce platform built on java and spring framework. It is using all the popular java based technologies like hibernate , spring and solr.You can setup your own site , by this well explained tutorial (http://docs.broadleaknwommerce.org/current/Getting-Started.html).</doap:description>
+    <doap:os>-</doap:os>
+    <doap:sub_category rdf:resource="http://www.thesaurus.ta.it/concepts#webapplication"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="WordPress">
+    <doap:description>Wordpress is also a very good tool to build your e-commerce site. It provides several nice user interfaces and templates.To start building your site , you can take help from this link (http://code.tutsplus.com/tutorials/how-to-build-an-e-commerce-website-using-wordpress-part-1--wp-23370)</doap:description>
+    <ta:usedFor rdf:resource="http://www.thesaurus.ta.it/concepts#e-commerce"/>
+    <doap:category rdf:resource="http://www.thesaurus.ta.it/concepts#web"/>
+    <doap:programming-language>-</doap:programming-language>
+    <rdf:type rdf:resource="Framework"/>
+    <doap:os>-</doap:os>
+    <doap:sub_category rdf:resource="http://www.thesaurus.ta.it/concepts#website"/>
+    <doap:name>WordPress</doap:name>
+    <doap:logo rdf:resource="http://www.comune.sanpellegrinoterme.bg.it/wp-content/uploads/2014/03/wordpress.png"/>
+    <doap:homepage rdf:resource="https://it.wordpress.com/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="Jena">
+    <rdf:type rdf:resource="Framework"/>
+    <doap:category rdf:resource="http://www.thesaurus.ta.it/concepts#web"/>
+    <doap:name>Jena</doap:name>
+    <doap:os>windows/linux/mac</doap:os>
+    <doap:homepage rdf:resource="https://jena.apache.org/"/>
+    <doap:description>Jena, a Java RDF API and toolkit, is a Java framework to construct Semantic Web Applications. It provides a programmatic environment for RDF, RDFS and OWL, SPARQL, GRDDL, and includes a rule-based inference engine.</doap:description>
+    <doap:sub_category rdf:resource="http://www.thesaurus.ta.it/concepts#webapplication"/>
+    <ta:usedFor rdf:resource="http://www.thesaurus.ta.it/concepts#semanticweb"/>
+    <doap:logo rdf:resource="http://www.epimorphics.com/web/sites/all/documents/jena-logo-large.png"/>
+    <doap:programming-language>java</doap:programming-language>
+  </rdf:Description>
+  <rdf:Description rdf:about="usedFor">
+    <rdfs:range rdf:resource="Toolkit"/>
+    <rdfs:range rdf:resource="IDE"/>
+    <rdfs:range rdf:resource="Framework"/>
+    <rdfs:comment xml:lang="en">stress the use of a framework, IDE and toolkit relative to a given topic</rdfs:comment>
+    <rdfs:label xml:lang="en">isUsedFor</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="phpDesigner">
+    <doap:logo rdf:resource="http://www.nadav-sharon.ch/images/informatica/phpDesigner.jpg"/>
+    <doap:name>phpDesigner</doap:name>
+    <doap:description>www.phpeditors.com gave phpDesigner a 5 star rating, saying it was a "super fast PHP IDE with many features." To back this up, phpDesigner offers support for PHP debugging and profiling; It also supports all standard web languages, and offers TortoiseSVN support, and live error detection for PHP, HTML, and CSS. A code snippets library and built-in PHP manual for beginners only sweeten this pot.</doap:description>
+    <doap:programming-language>-</doap:programming-language>
+    <doap:sub_category rdf:resource="http://www.thesaurus.ta.it/concepts#website"/>
+    <doap:category rdf:resource="http://www.thesaurus.ta.it/concepts#web"/>
+    <doap:os>windows</doap:os>
+    <doap:homepage rdf:resource="http://www.mpsoftware.dk/phpdesigner.php"/>
+    <rdf:type rdf:resource="IDE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="Eclipse">
+    <doap:logo rdf:resource="http://yohan.jasdid.com/wp-content/uploads/2014/06/Eclipse-luna.png"/>
+    <doap:name>Eclipse</doap:name>
+    <doap:description>Eclipse is an integrated development environment (IDE). It contains a base workspace and an extensible plug-in system for customizing the environment. Written mostly in Java, Eclipse can be used to develop applications. By means of various plug-ins, Eclipse may also be used to develop applications in other programming languages: Ada, ABAP, C, C++, COBOL, Fortran, Haskell, JavaScript, Lasso, Lua, Natural, Perl, PHP, Prolog, Python, R, Ruby (including Ruby on Rails framework), Scala, Clojure, Groovy, Scheme, and Erlang. It can also be used to develop packages for the software Mathematica. Development environments include the Eclipse Java development tools (JDT) for Java and Scala, Eclipse CDT for C/C++ and Eclipse PDT for PHP, among others.</doap:description>
+    <doap:programming-language>-</doap:programming-language>
+    <doap:sub_category rdf:resource="http://www.thesaurus.ta.it/concepts#webapplication"/>
+    <doap:category rdf:resource="http://www.thesaurus.ta.it/concepts#web"/>
+    <doap:os>windows/mac/linux</doap:os>
+    <doap:homepage rdf:resource="https://eclipse.org/home/index.php"/>
+    <rdf:type rdf:resource="IDE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="Xcode">
+    <doap:logo rdf:resource="https://upload.wikimedia.org/wikipedia/fr/d/da/Logo_xcode.png"/>
+    <doap:name>Xcode</doap:name>
+    <doap:description>The Xcode IDE is at the center of the Apple development experience. Tightly integrated with the Cocoa and Cocoa Touch frameworks, Xcode is an incredibly productive environment for building amazing apps for Mac, iPhone, and iPad.</doap:description>
+    <doap:programming-language>objective-c</doap:programming-language>
+    <doap:sub_category rdf:resource="http://www.thesaurus.ta.it/concepts#ios"/>
+    <doap:category rdf:resource="http://www.thesaurus.ta.it/concepts#mobile"/>
+    <doap:os>-</doap:os>
+    <doap:homepage rdf:resource="https://developer.apple.com/xcode/ide/"/>
+    <rdf:type rdf:resource="IDE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="Framework">
+    <rdfs:label xml:lang="en">Framework</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="Visual Studio Express 2012">
+    <doap:logo rdf:resource="http://www.ilsoftware.it/public/shots/visualstudioexpress2012_0213.jpg"/>
+    <doap:name>Visual Studio Express 2012</doap:name>
+    <doap:description>Tool to build Windows Phone 8 apps. Itís free and includes the Windows Phone SDK 8.0, Blend for Visual Studio, and project templates. For more info, see Windows Phone 8 SDK tools.https://msdn.microsoft.com/en-us/library/windows/apps/ff402523(v=vs.105).aspx</doap:description>
+    <doap:programming-language>-</doap:programming-language>
+    <doap:sub_category rdf:resource="http://www.thesaurus.ta.it/concepts#windowsphone"/>
+    <doap:category rdf:resource="http://www.thesaurus.ta.it/concepts#mobile"/>
+    <doap:os>-</doap:os>
+    <doap:homepage rdf:resource="https://msdn.microsoft.com/en-us/library/windows/apps/jj714071(v=vs.105).aspx"/>
+    <rdf:type rdf:resource="IDE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="JadaSite">
+    <doap:programming-language>java</doap:programming-language>
+    <doap:sub_category rdf:resource="http://www.thesaurus.ta.it/concepts#webapplication"/>
+    <doap:homepage rdf:resource="http://www.jadasite.com/"/>
+    <doap:name>JadaSite</doap:name>
+    <rdf:type rdf:resource="Toolkit"/>
+    <doap:os>-</doap:os>
+    <doap:category rdf:resource="http://www.thesaurus.ta.it/concepts#web"/>
+    <doap:logo rdf:resource="http://profprojects.com/images/cms/jadasite.png"/>
+    <ta:usedFor rdf:resource="http://www.thesaurus.ta.it/concepts#e-commerce"/>
+    <doap:description>JadaSite is an open sourced content management and e-commerce system. Our philosophy is to ensure that JadaSite is feature-rich, easy to use and maintain, and does not require an I.T. Team for support and to make changes to the system. We use simple tools and frameworks to ensure future changes by other parties outside of our core development team can be done easily.</doap:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="Magento">
+    <doap:os>-</doap:os>
+    <ta:usedFor rdf:resource="http://www.thesaurus.ta.it/concepts#e-commerce"/>
+    <doap:name>Magento</doap:name>
+    <doap:description>Magento provides wide range of functionality and plugins to make your e-commerce site easily. Based on PHP, magento provides many functionalities like mobile templates , multiple store , payment gateway integration modules , easy layout changes etc .To create a sample magento app on openshift cloud server </doap:description>
+    <doap:sub_category rdf:resource="http://www.thesaurus.ta.it/concepts#webapplication"/>
+    <doap:logo rdf:resource="http://www.vipereg.com/wp-content/uploads/2012/09/logo-magento.png"/>
+    <rdf:type rdf:resource="Framework"/>
+    <doap:programming-language>php</doap:programming-language>
+    <doap:category rdf:resource="http://www.thesaurus.ta.it/concepts#web"/>
+    <doap:homepage rdf:resource="http://magento.com/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="SoftSlate">
+    <rdf:type rdf:resource="Toolkit"/>
+    <doap:category rdf:resource="http://www.thesaurus.ta.it/concepts#web"/>
+    <doap:os>-</doap:os>
+    <doap:description>SoftSlate Commerce is a full-featured, high-performance, open-source Java shopping cart that powers dozens of ecommerce websites. SoftSlate Commerce is designed to be easily extended and customized. And if you need help building a solution, SoftSlate offers custom development and support services.</doap:description>
+    <doap:programming-language>java</doap:programming-language>
+    <doap:logo rdf:resource="http://www.softslate.com/forums/templates/subSilver/images/logo_phpBB.gif"/>
+    <doap:sub_category rdf:resource="http://www.thesaurus.ta.it/concepts#webapplication"/>
+    <ta:usedFor rdf:resource="http://www.thesaurus.ta.it/concepts#e-commerce"/>
+    <doap:name>SoftSlate</doap:name>
+    <doap:homepage rdf:resource="http://www.jadasite.com/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="Visual Studio">
+    <doap:logo rdf:resource="https://cdn.tutsplus.com/net/uploads/2013/07/msbuild-retina-preview.jpg"/>
+    <doap:name>Visual Studio</doap:name>
+    <doap:description>Visual Studio is basically the industry standard for writing .NET code, but it's also good for web development. It's strong point is ASP .NET (obviously), but it's pretty good with traditional web languages, offering extensive "IntelliSense" (code completion) for HTML, CSS and JavaScript. There's no native PHP support, but there is a plug-in of sorts that can add it (Rumour has it that VS 2010 will support PHP). The code debugger is amazing if you're using ASP .NET, and now you can debug JavaScript as well. Visual Studio has so many more powerful features; it's a good product for anyone who uses ASP .NET.</doap:description>
+    <doap:programming-language>-</doap:programming-language>
+    <doap:sub_category rdf:resource="http://www.thesaurus.ta.it/concepts#website"/>
+    <doap:category rdf:resource="http://www.thesaurus.ta.it/concepts#web"/>
+    <doap:os>windows</doap:os>
+    <doap:homepage rdf:resource="https://www.visualstudio.com/en-us"/>
+    <rdf:type rdf:resource="IDE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="Coda">
+    <doap:logo rdf:resource="http://cdn.appstorm.net/mac.appstorm.net/authors/jacobwilson/coda-icon.jpg"/>
+    <doap:name>Coda</doap:name>
+    <doap:description>Coda may be the best IDE for the Mac, and it's one of the few IDEs created with the sole intent of web development. Its concept of sites is pretty neat, and you can remotely edit files on almost any server. With the ability to collaborate on file with anyone in the world, and a clips repository for frequently typed snippets, Coda really looks promising. By the time you have a Javascript console, Dom inspector, CSS editor, and built-in terminal, you're looking at an application that would make me consider switching to a Mac.</doap:description>
+    <doap:programming-language>-</doap:programming-language>
+    <doap:sub_category rdf:resource="http://www.thesaurus.ta.it/concepts#website"/>
+    <doap:category rdf:resource="http://www.thesaurus.ta.it/concepts#web"/>
+    <doap:os>mac</doap:os>
+    <doap:homepage rdf:resource="http://www.panic.com/coda/"/>
+    <rdf:type rdf:resource="IDE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="JMSL - Java Music Specification Language">
+    <doap:homepage rdf:resource="http://www.algomusic.com/jmsl/index.html"/>
+    <doap:sub_category rdf:resource="http://www.thesaurus.ta.it/concepts#android"/>
+    <doap:name>JMSL - Java Music Specification Language</doap:name>
+    <doap:os>-</doap:os>
+    <doap:programming-language>java</doap:programming-language>
+    <rdf:type rdf:resource="Framework"/>
+    <doap:description>JMSL is a Java API for experiments in interactive performance, composition, and intelligent instrument design. With JMSL, the composer/programmer can create stand-alone musical applications or deploy applets on the web. JMSL supports JSyn, MidiShare, MidiPort, and JavaSound.</doap:description>
+    <doap:category rdf:resource="http://www.thesaurus.ta.it/concepts#mobile"/>
+    <ta:usedFor rdf:resource="http://www.thesaurus.ta.it/concepts#music"/>
+    <doap:logo rdf:resource="http://jmsldev.com/wp-content/uploads/2013/12/logoJMLS11.jpg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="Google Web Toolkit">
+    <doap:programming-language>java</doap:programming-language>
+    <doap:os>-</doap:os>
+    <doap:logo rdf:resource="http://blog.javabit.net/wp-content/uploads/2009/11/gwt-logo.png"/>
+    <doap:name>Google Web Toolkit</doap:name>
+    <rdf:type rdf:resource="Toolkit"/>
+    <doap:sub_category rdf:resource="http://www.thesaurus.ta.it/concepts#webapplication"/>
+    <doap:homepage rdf:resource="http://www.gwtproject.org/"/>
+    <ta:usedFor rdf:resource="http://www.thesaurus.ta.it/concepts#e-commerce"/>
+    <doap:category rdf:resource="http://www.thesaurus.ta.it/concepts#web"/>
+    <doap:description>GWT is a development toolkit for building and optimizing complex browser-based applications. Its goal is to enable productive development of high-performance web applications without the developer having to be an expert in browser quirks, XMLHttpRequest, and JavaScript. GWT is used by many products at Google, including AdWords, AdSense, Flights, Hotel Finder, Offers, Wallet, Blogger. Itís opn source, completely free, and used by thousands of developers around the world.</doap:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="Android Studio">
+    <doap:logo rdf:resource="http://cdn1.raywenderlich.com/wp-content/uploads/2013/11/opening_studio_3.png"/>
+    <doap:name>Android Studio</doap:name>
+    <doap:description>Android Studio is the official IDE for Android application development, based on IntelliJ IDEA.</doap:description>
+    <doap:programming-language>java</doap:programming-language>
+    <doap:sub_category rdf:resource="http://www.thesaurus.ta.it/concepts#android"/>
+    <doap:category rdf:resource="http://www.thesaurus.ta.it/concepts#mobile"/>
+    <doap:os>-</doap:os>
+    <doap:homepage rdf:resource="http://developer.android.com/tools/studio/index.html"/>
+    <rdf:type rdf:resource="IDE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="jMusic">
+    <ta:usedFor rdf:resource="http://www.thesaurus.ta.it/concepts#music"/>
+    <doap:category rdf:resource="http://www.thesaurus.ta.it/concepts#mobile"/>
+    <doap:logo rdf:resource="http://explodingart.com/jmusic/jMusic.gif"/>
+    <doap:name>jMusic</doap:name>
+    <rdf:type rdf:resource="Framework"/>
+    <doap:programming-language>java</doap:programming-language>
+    <doap:homepage rdf:resource="http://explodingart.com/jmusic/"/>
+    <doap:description>As a library of classes for generating and manipulating music, jMusic provides a solid framework for musical composition in Java. jMusic supports music composition with its music data structure based upon note events, and methods for working with that musical data. jMusic can read and write MIDI files, its own .jm files, and audio files.</doap:description>
+    <doap:os>-</doap:os>
+    <doap:sub_category rdf:resource="http://www.thesaurus.ta.it/concepts#android"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="Toolkit">
+    <rdfs:label xml:lang="en">Toolkit</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="Visual Web Developer">
+    <doap:logo rdf:resource="http://blogs.msdn.com/cfs-filesystemfile.ashx/__key/communityserver-blogs-components-weblogfiles/00-00-01-10-92-metablogapi/7853.VisualStudioLogo_5F00_49DD9B64.jpg"/>
+    <doap:name>Visual Web Developer</doap:name>
+    <doap:description>Visual Web Developer is basically a stripped down version of Visual Studio, with only the web development tools in place. It has the same great project management and database tools that VS has, only it costs $299 less. This app is aimed at beginners, So you can get starter kits along with it, and there's a great Beginning Developer Learning Center online.</doap:description>
+    <doap:programming-language>-</doap:programming-language>
+    <doap:sub_category rdf:resource="http://www.thesaurus.ta.it/concepts#website"/>
+    <doap:category rdf:resource="http://www.thesaurus.ta.it/concepts#web"/>
+    <doap:os>windows</doap:os>
+    <doap:homepage rdf:resource="https://msdn.microsoft.com/en-us/library/ms178093(v=vs.80).aspx"/>
+    <rdf:type rdf:resource="IDE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="">
+    <owl:imports rdf:resource="http://usefulinc.com/ns/doap"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="Redland">
+    <doap:homepage rdf:resource="http://librdf.org/"/>
+    <doap:description>The Redland RDF Application Framework is a set of free software libraries that provide support for RDF. It provides parser for RDF/XML, Turtle, N-triples, Atom, RSS; has a SPARQL and GRDDL implementation, and has language interfaces to Python, Obj-C, Perl, PHP and Ruby.</doap:description>
+    <doap:name>Redland</doap:name>
+    <doap:logo rdf:resource="http://www.w3.org/RDF/icons/rdf_w3c_icon.48"/>
+    <doap:programming-language>python</doap:programming-language>
+    <ta:usedFor rdf:resource="http://www.thesaurus.ta.it/concepts#semanticweb"/>
+    <rdf:type rdf:resource="Framework"/>
+    <doap:sub_category rdf:resource="http://www.thesaurus.ta.it/concepts#webapplication"/>
+    <doap:os>windows/linux/mac</doap:os>
+    <doap:programming-language>objective-c</doap:programming-language>
+    <doap:programming-language>php</doap:programming-language>
+    <doap:programming-language>ruby</doap:programming-language>
+    <doap:programming-language>c</doap:programming-language>
+    <doap:category rdf:resource="http://www.thesaurus.ta.it/concepts#web"/>
+    <doap:programming-language>perl</doap:programming-language>
+  </rdf:Description>
+</rdf:RDF>

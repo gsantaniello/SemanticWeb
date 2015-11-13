@@ -1,0 +1,65 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:ta="http://www.thesaurus.ta.it/concepts#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#" > 
+  <rdf:Description rdf:about="http://www.thesaurus.ta.it/concepts#web">
+    <skos:topConceptOf rdf:resource="http://www.thesaurus.ta.it/WebThesaurus"/>
+    <skos:narrower rdf:resource="http://www.thesaurus.ta.it/concepts#webapplication"/>
+    <skos:narrower rdf:resource="http://www.thesaurus.ta.it/concepts#website"/>
+    <skos:altLabel xml:lang="en">www</skos:altLabel>
+    <skos:altLabel xml:lang="en">world wide web</skos:altLabel>
+    <skos:prefLabel xml:lang="it">web</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">web</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.thesaurus.ta.it/concepts#e-commerce">
+    <skos:inScheme rdf:resource="http://www.thesaurus.ta.it/TopicsThesaurus"/>
+    <skos:prefLabel xml:lang="it">e-commerce</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">e-commerce</skos:prefLabel>
+    <skos:altLabel xml:lang="en">e commerce</skos:altLabel>
+    <skos:altLabel xml:lang="en">ecommerce</skos:altLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.thesaurus.ta.it/TopicsThesaurus">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.thesaurus.ta.it/concepts#webapplication">
+    <skos:broader rdf:resource="http://www.thesaurus.ta.it/concepts#web"/>
+    <skos:inScheme rdf:resource="http://www.thesaurus.ta.it/WebThesaurus"/>
+    <skos:altLabel xml:lang="it">webapp</skos:altLabel>
+    <skos:altLabel xml:lang="it">web app</skos:altLabel>
+    <skos:altLabel xml:lang="en">webapp</skos:altLabel>
+    <skos:altLabel xml:lang="en">web app</skos:altLabel>
+    <skos:prefLabel xml:lang="it">applicazione web</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">web application</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.thesaurus.ta.it/WebThesaurus">
+    <skos:hasTopConcept rdf:resource="http://www.thesaurus.ta.it/concepts#web"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.thesaurus.ta.it/concepts#website">
+    <skos:altLabel xml:lang="en">webpage</skos:altLabel>
+    <skos:broader rdf:resource="http://www.thesaurus.ta.it/concepts#web"/>
+    <skos:altLabel xml:lang="en">web page</skos:altLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="it">sito web</skos:prefLabel>
+    <skos:altLabel xml:lang="en">website</skos:altLabel>
+    <skos:prefLabel xml:lang="en">site</skos:prefLabel>
+    <skos:altLabel xml:lang="it">pagina web</skos:altLabel>
+    <skos:inScheme rdf:resource="http://www.thesaurus.ta.it/WebThesaurus"/>
+    <skos:altLabel xml:lang="en">web site</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.thesaurus.ta.it/concepts#music">
+    <skos:inScheme rdf:resource="http://www.thesaurus.ta.it/TopicsThesaurus"/>
+    <skos:prefLabel xml:lang="it">musica</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">music</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.thesaurus.ta.it/concepts#semanticweb">
+    <skos:inScheme rdf:resource="http://www.thesaurus.ta.it/TopicsThesaurus"/>
+    <skos:prefLabel xml:lang="it">web semantico</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">semantic web</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+</rdf:RDF>

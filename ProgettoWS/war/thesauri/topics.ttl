@@ -1,0 +1,18 @@
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix ta:    <http://www.thesaurus.ta.it/concepts#> .
+
+ta:music  a             skos:Concept ;
+        skos:inScheme   <http://www.thesaurus.ta.it/TopicsThesaurus> ;
+        skos:prefLabel  "musica"@it , "music"@en .
+
+ta:e-commerce  a        skos:Concept ;
+        skos:altLabel   "e commerce"@en , "ecommerce"@en ;
+        skos:inScheme   <http://www.thesaurus.ta.it/TopicsThesaurus> ;
+        skos:prefLabel  "e-commerce"@it , "e-commerce"@en .
+
+<http://www.thesaurus.ta.it/TopicsThesaurus>
+        a       skos:ConceptScheme .
+
+ta:semanticweb  a       skos:Concept ;
+        skos:inScheme   <http://www.thesaurus.ta.it/TopicsThesaurus> ;
+        skos:prefLabel  "web semantico"@it , "semantic web"@en .

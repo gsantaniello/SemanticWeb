@@ -1,0 +1,28 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:ta="http://www.thesaurus.ta.it/concepts#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#" > 
+  <rdf:Description rdf:about="http://www.thesaurus.ta.it/concepts#e-commerce">
+    <skos:inScheme rdf:resource="http://www.thesaurus.ta.it/TopicsThesaurus"/>
+    <skos:prefLabel xml:lang="it">e-commerce</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">e-commerce</skos:prefLabel>
+    <skos:altLabel xml:lang="en">e commerce</skos:altLabel>
+    <skos:altLabel xml:lang="en">ecommerce</skos:altLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.thesaurus.ta.it/TopicsThesaurus">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.thesaurus.ta.it/concepts#music">
+    <skos:inScheme rdf:resource="http://www.thesaurus.ta.it/TopicsThesaurus"/>
+    <skos:prefLabel xml:lang="it">musica</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">music</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.thesaurus.ta.it/concepts#semanticweb">
+    <skos:inScheme rdf:resource="http://www.thesaurus.ta.it/TopicsThesaurus"/>
+    <skos:prefLabel xml:lang="it">web semantico</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">semantic web</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+</rdf:RDF>

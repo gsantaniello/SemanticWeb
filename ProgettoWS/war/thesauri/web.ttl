@@ -1,0 +1,40 @@
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix ta:    <http://www.thesaurus.ta.it/concepts#> .
+
+ta:webapplication  a    skos:Concept ;
+        skos:altLabel   "webapp"@it , "web app"@it , "webapp"@en , "web app"@en ;
+        skos:broader    ta:web ;
+        skos:inScheme   <http://www.thesaurus.ta.it/WebThesaurus> ;
+        skos:prefLabel  "applicazione web"@it , "web application"@en .
+
+ta:web  a                  skos:Concept ;
+        skos:altLabel      "www"@en , "world wide web"@en ;
+        skos:narrower      ta:webapplication , ta:website ;
+        skos:prefLabel     "web"@it , "web"@en ;
+        skos:topConceptOf  <http://www.thesaurus.ta.it/WebThesaurus> .
+
+ta:music  a             skos:Concept ;
+        skos:inScheme   <http://www.thesaurus.ta.it/TopicsThesaurus> ;
+        skos:prefLabel  "musica"@it , "music"@en .
+
+ta:e-commerce  a        skos:Concept ;
+        skos:altLabel   "e commerce"@en , "ecommerce"@en ;
+        skos:inScheme   <http://www.thesaurus.ta.it/TopicsThesaurus> ;
+        skos:prefLabel  "e-commerce"@it , "e-commerce"@en .
+
+<http://www.thesaurus.ta.it/WebThesaurus>
+        a                   skos:ConceptScheme ;
+        skos:hasTopConcept  ta:web .
+
+ta:website  a           skos:Concept ;
+        skos:altLabel   "webpage"@en , "web page"@en , "website"@en , "pagina web"@it , "web site"@en ;
+        skos:broader    ta:web ;
+        skos:inScheme   <http://www.thesaurus.ta.it/WebThesaurus> ;
+        skos:prefLabel  "sito web"@it , "site"@en .
+
+<http://www.thesaurus.ta.it/TopicsThesaurus>
+        a       skos:ConceptScheme .
+
+ta:semanticweb  a       skos:Concept ;
+        skos:inScheme   <http://www.thesaurus.ta.it/TopicsThesaurus> ;
+        skos:prefLabel  "web semantico"@it , "semantic web"@en .

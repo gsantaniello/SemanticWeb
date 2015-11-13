@@ -1,0 +1,68 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+	
+	</ui:style>
+	<g:HTMLPanel>
+
+		<!-- top navbar -->
+		<div class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+
+						<button type="button" class="navbar-toggle" data-toggle="offcanvas"
+							data-target=".sidebar-nav">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+
+						<a class="icon back" href="">
+							<i class="fa fa-chevron-left"></i>
+						</a>
+						<a class="icon search" href="#search">
+							<i class="fa fa-search"></i>
+						</a>
+						<a class="navbar-brand " href="#home">TechAdvisor</a>
+						<a class="icon logout" href="#logout">
+							<i class="fa fa-sign-out"></i>
+						</a>
+
+					</div>
+				</div>
+			</div>
+
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h1>
+							Welcome <div ui:field="nameContent" style="display: inline;"></div>
+							<!-- <i class="fa fa-pencil-square-o pull-right"></i> -->
+						</h1>
+					</div>
+				</div>
+				<div class="row">
+					<!-- sidebar -->
+					<div class="col-xs-6 col-sm-4 col-md-3 sidebar-offcanvas">
+						<ul data-spy="affix" data-offset-top="120" id="affix" class="nav nav-stacked">
+							<li>
+								<a href="#profile">
+									<i class="fa fa-user"></i>
+									Profile
+								</a>
+							</li>
+							<li>
+								<a href="#search">
+									<i class="fa fa-search"></i>
+									Search
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+
+	</g:HTMLPanel>
+</ui:UiBinder> 
