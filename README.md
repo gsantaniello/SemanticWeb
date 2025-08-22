@@ -29,3 +29,9 @@ Il progetto include diverse classi e componenti che si occupano di:
 ## Note
 Si tratta di un progetto accademico, creato con finalità di ricerca e studio del Web Semantico.  
 Pur essendo stato sviluppato anni fa, anticipava alcuni concetti oggi comuni nei sistemi di **Question Answering** e **AI-driven search**.
+
+## Demo dell'applicazione
+
+Guarda il video dimostrativo dell'applicazione:
+
+[![Demo dell'applicazione](https://img.youtube.com/vi/7QvQVZfSX7Q/0.jpg)](https://youtu.be/7QvQVZfSX7Q?si=Yi2ny8iJWTnwn-k3)
